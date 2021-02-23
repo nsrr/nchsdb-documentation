@@ -15,7 +15,7 @@ The National Sleep Research Resource is grateful to the [Nationwide Children's H
 
 ## Data preamble and access restrictions
 
-Tk
+The NCH Sleep DataBank is only available for non-commercial use.
 
 ## Citation and acknowledgement
 
