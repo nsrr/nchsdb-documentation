@@ -1,8 +1,17 @@
 # About
 
-The Nationwide Children's Sleep DataBank (NCHSDB) is ...
+In order to accelerate research on pediatric sleep and its connection to health, [Nationwide Children's Hospital (NCH)](https://www.nationwidechildrens.org/) and [Carnegie Mellon University (CMU)](https://www.ece.cmu.edu/) introduce the NCH Sleep DataBank. This dataset has 3,984 pediatric sleep studies on 3,673 unique patients conducted at NCH in Columbus, Ohio, USA between 2017 and 2019, along with the patients' longitudinal clinical data. The published polysomnography (PSG) contains the patient's physiological signals as well as the technician’s assessment of the sleep stages and descriptions of additional irregularities.
 
-The National Sleep Research Resource is grateful to the [Nationwide Children's Hospital (NCH)](https://www.nationwidechildrens.org/) team for sharing these data.
+The novelties of this dataset include:
+
+1. **Size:** Its large size is suitable for discovering new scientific insights via data mining.
+2. **Patient population:** It explicitly focuses on pediatric patients.
+3. **Clinical setting:** The sleep studies were gathered in the real-world clinical setting at NCH as opposed to, for example, a controlled clinical trial.
+4. **Rich set of clinical data:** The accompanying 5.6 million records of clinical data are extracted from the EHR, and are separated into encounters, medications, measurements (e.g. body mass index), diagnoses, and procedures.
+
+The NCH Sleep DataBank is a valuable resource for advancing automatic sleep scoring and real-time sleep disorder prediction, among many other potential scientific discoveries. Accompanying code in Python to assist users in interacting with the dataset is [published on GitHub](https://github.com/liboyue/sleep_study).
+
+The National Sleep Research Resource is grateful to the [Nationwide Children's Hospital (NCH)](https://www.nationwidechildrens.org/) and [Carnegie Mellon University (CMU)](https://www.ece.cmu.edu/) team for sharing these data.
 
 ## Data preamble and access restrictions
 
@@ -22,7 +31,7 @@ Please include the following text in the Acknowledgements:
 
 ## Data overview
 
-**[/health_data](:files_path:/health_data)** <br/> Data (CSV) from the NCH clinical data warehouse. [Click here for an overview of the file formats and contents](:files_path:/health_data/Sleep_Study_Data_File_Format.docx).
+**[/health_data](:files_path:/health_data)** <br/> Data (CSV) from the NCH clinical data warehouse. [Click here for an overview of the file formats and contents](:files_path:/health_data/Sleep_Study_Data_File_Format.pdf).
 
 **[/sleep_data](:files_path:/sleep_data)** <br/> Raw physiological data (EDF) and annotations (TSV) from overnight polysomnography.
 
