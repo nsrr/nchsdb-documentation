@@ -23,7 +23,7 @@ When using this dataset, please cite the following:
 
 > [Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.](https://pubmed.ncbi.nlm.nih.gov/29860441/)
 >
-> Lee H, Li B, DeForte S, Splaingard M, Huang Y, Chi Y, Lin S. NCH Sleep DataBank: A Large Collection of Real-world Pediatric Sleep Studies. at https://sleepdata.org/datasets/nchsdb
+> [Lee H, Li B, DeForte S, Splaingard M, Huang Y, Chi Y, & Lin S. NCH Sleep DataBank: A Large Collection of Real-world Pediatric Sleep Studies. Preprint at https://arxiv.org/abs/2102.13284 (2021)](https://arxiv.org/abs/2102.13284)
 
 Please include the following text in the Acknowledgements:
 
