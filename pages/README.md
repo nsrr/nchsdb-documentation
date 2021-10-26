@@ -1,5 +1,3 @@
-**Note: As of September 14, 2021, the NSRR has paused the approval of data requests for NCH Sleep DataBank at the request of the data submitter.**
-
 # About
 
 In order to accelerate research on pediatric sleep and its connection to health, [Nationwide Children's Hospital (NCH)](https://www.nationwidechildrens.org/) and [Carnegie Mellon University (CMU)](https://www.ece.cmu.edu/) introduce the NCH Sleep DataBank. This dataset has 3,984 pediatric sleep studies on 3,673 unique patients conducted at NCH in Columbus, Ohio, USA between 2017 and 2019, along with the patients' longitudinal clinical data. The published polysomnography (PSG) contains the patient's physiological signals as well as the technician’s assessment of the sleep stages and descriptions of additional irregularities.
@@ -38,6 +36,9 @@ Please include the following text in the Acknowledgements:
 **[/sleep_data](:files_path:/sleep_data)** <br/> Raw physiological data (EDF) and annotations (TSV) from overnight polysomnography.
 
 ## Change log
+
+*October 2021*
+- Unpaused approval of data requests. Replaced **DIAGNOSIS.csv** in **health_data** folder. Note from the contributor: *We replaced columns ('DX_CODE', 'DX_NAME', 'DX_ALT_CODE', 'CLASS_OF_PROBLEM', ‘CHRONIC_YN') corresponding a rare diagnosis with "redacted" to prevent potential privacy issues. A rare diagnosis is defined as a diagnosis that has less than 10 unique patients from all NCH records from 01/01/2000 to 12/31/2020.*
 
 *September 2021*
 - Pause approval of data requests
