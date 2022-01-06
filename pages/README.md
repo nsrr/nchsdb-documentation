@@ -31,7 +31,7 @@ Please include the following text in the Acknowledgements:
 
 ## Data overview
 
-**[/datasets](:files_path:/datasets)** <br/> Covariate datasets derived from the original [health_data files](:files_path:/health_data). The NSRR team recommends using `nchsdb-dataset-harmonized`, which contains variables (e.g., :nsrr_age:, :nsrr_bmi:) that overlap with other NSRR harmonized datasets.
+**[/datasets](:files_path:/datasets)** <br/> Covariate datasets derived from the original [health_data files](:files_path:/health_data). The NSRR team recommends using the `nchsdb-dataset-harmonized` dataset, which contains variables (e.g., [nsrr_age](../nchsdb/variables/nsrr_age), [nsrr_bmi](../nchsdb/variables/nsrr_bmi)) that match other NSRR harmonized datasets.
 
 **[/health_data](:files_path:/health_data)** <br/> Data (CSV) from the NCH clinical data warehouse. [Click here for an overview of the file formats and contents](:files_path:/health_data/Sleep_Study_Data_File_Format.pdf).
 
