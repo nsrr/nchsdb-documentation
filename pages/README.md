@@ -31,11 +31,16 @@ Please include the following text in the Acknowledgements:
 
 ## Data overview
 
+**[/datasets](:files_path:/datasets)** <br/> Covariate datasets derived from the original [health_data files](:files_path:/health_data). The NSRR team recommends using the `harmonized` dataset.
+
 **[/health_data](:files_path:/health_data)** <br/> Data (CSV) from the NCH clinical data warehouse. [Click here for an overview of the file formats and contents](:files_path:/health_data/Sleep_Study_Data_File_Format.pdf).
 
 **[/sleep_data](:files_path:/sleep_data)** <br/> Raw physiological data (EDF) and annotations (TSV) from overnight polysomnography.
 
 ## Change log
+
+*January 2022*
+- Add [covariate datasets](:files_path:/datasets) derived from CSV files in [/health_data folder](:files_path:/health_data)
 
 *October 2021*
 - Unpaused approval of data requests. Replaced **DIAGNOSIS.csv** in **health_data** folder. Note from the contributor: *We replaced columns ('DX_CODE', 'DX_NAME', 'DX_ALT_CODE', 'CLASS_OF_PROBLEM', ‘CHRONIC_YN') corresponding a rare diagnosis with "redacted" to prevent potential privacy issues. A rare diagnosis is defined as a diagnosis that has less than 10 unique patients from all NCH records from 01/01/2000 to 12/31/2020.*
