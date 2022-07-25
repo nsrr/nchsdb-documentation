@@ -23,7 +23,7 @@ When using this dataset, please cite the following:
 
 > [Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.](https://pubmed.ncbi.nlm.nih.gov/29860441/)
 >
-> [Lee H, Li B, DeForte S, Splaingard M, Huang Y, Chi Y, & Lin S. NCH Sleep DataBank: A Large Collection of Real-world Pediatric Sleep Studies. Preprint at https://arxiv.org/abs/2102.13284 (2021)](https://arxiv.org/abs/2102.13284)
+> [Lee H, Li B, DeForte S, Splaingard ML, Huang Y, Chi Y, Linwood SL. A large collection of real-world pediatric sleep studies. Sci Data. 2022 Jul 19;9(1):421. doi: 10.1038/s41597-022-01545-6. PMID: 35853958; PMCID: PMC9296671.](https://pubmed.ncbi.nlm.nih.gov/35853958/)
 
 Please include the following text in the Acknowledgements:
 
@@ -38,6 +38,10 @@ Please include the following text in the Acknowledgements:
 **[/sleep_data](:files_path:/sleep_data)** <br/> Raw physiological data (EDF) and annotations (TSV) from overnight polysomnography.
 
 ## Change log
+
+*July 2022*
+
+- Update citation to [Sci Data 2022 article](https://pubmed.ncbi.nlm.nih.gov/35853958/)
 
 *January 2022*
 - Add [covariate datasets](:files_path:/datasets) derived from CSV files in [/health_data folder](:files_path:/health_data)
